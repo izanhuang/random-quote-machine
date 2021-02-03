@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: black;
 }
 
 .App-logo {
@@ -35,4 +36,59 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#quote-box-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 4%;
+}
+
+#quote-box {
+  background-color: whitesmoke;
+  font-size: 100%;
+  color: black;
+  max-width: 625px;
+  padding: 3%;
+  border-radius: 2px;
+}
+
+#quote-box p {
+  float: right;
+}
+
+.buttons {
+  align-items: flex-start;
+  color: white;
+  border: none;
+  margin-top: 3%;
+  border-radius: 2px;
+  padding: 6px 10px;
+  opacity: 1;
+}
+
+.buttons:hover{
+  opacity: 0.8;
+  color: white;
+}
+
+#author {
+  margin-bottom: 0;
+  
+}
+
+#tweet-quote {
+  float: left;
+}
+
+#new-quote {
+  float: right;
+}
+
+#name {
+  display: block;
+  margin-top: 10px;
+  color: white;
 }
